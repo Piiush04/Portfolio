@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Piyush</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav_logo">
+                <p class="nav_name">Agr</p>
+                <span>.</span>
+            </div>
+            <div class="nav_menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav_link active_link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav_link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav_link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav_link">Contacts</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_button">
+                <a href="resume.pdf" download="Piyush_Agrahari_CV"><button class="btn">Download CV<i class="uil uil-file-alt"></i>
+                </button></a>
+            </div>
+            <div class="nav_menu_btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- ----------MAIN--------- -->
+        <main class="wrapper">
+            <!-- ---------- FEATURED----------- -->
+            <section class="featured_box" id="home">
+                <div class="featured_text">
+                    <div class="featured_text_card"><span>Piyush Agrahari</span></div>
+                    <div class="featured_name"><p>I'm <span class="typed_text">Web developer</span></p></div>
+                    <div class="featured_text_info">
+                        <p>Frontend developer with a passion for creating
+                            visually stunning and user-friendly websites.</p>
+                    </div>
+                    <div class="featured_text_btn">
+                        <button class="btn blue_btn"><a href="#contact">Hire Me</a></button>
+                        <a href="resume.pdf" download="Piyush_Agrahari_CV"><button class="btn">Download CV<i class="uil uil-file-alt"></i>
+                        </button></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon" ><a href="https://www.instagram.com/piiush_here/"><i class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/piyush-agrahari-385b28303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://github.com/Piiush04"><i class="uil uil-github-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured_image">
+                    <div class="image">
+                    <img src="images/avatar.jpeg" alt="avatar" />
+                    </div>
+                </div>
+                <div class="scroll_icon_box">
+                    <a href="#about" class="scroll_btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+            <!-- ------------ABOUT------------- -->
+             <section class="section" id="about">
+                <div class="top_header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about_info">
+                            <h3>My introduction</h3>
+                            <p>I am well-versed in HTML, CSS, and JavaScript , and some frameworks and libraries, Which allows me to implement interactive features.
+                                Additionally, I have a strong foundation in DSA as well.
+                            </p>
+                            <div class="about_btn">
+                                <a href="resume.pdf" download="Piyush_Agrahari_CV"><button class="btn">Download CV<i class="uil uil-file-alt"></i>
+                                </button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills_box">
+                            <div class="skills_header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills_list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                
+                            </div>
+                        </div>
+                        <div class="skills_box">
+                            <div class="skills_header">
+                                <h3>Other skills</h3>
+                            </div>
+                            <div class="skills_list">
+                                <span>C++</span>
+                                <span>Python</span>
+                                <span>MySQL</span>
+                                <span>Data structures and algorithms</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+            <!-- ----------CONTACT----------- -->
+             <section class="section" id="contact">
+                <div class="top_header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, Contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact_info">
+                            <h2>Find Me<i class="uil uil-corner-right-down"></i></i></h2>
+                            <p><i class="uil uil-envelope"></i>Email: piyushagrahari04@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Tel: +91 7271856102</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form_control">
+                            <div class="form_inputs">
+                                <input type="text" class="input_field" id="Name" placeholder="Name">
+                                <input type="text" class="input_field" id="Email" placeholder="Email">
+                            </div>
+                            <div class="text_area">
+                                <textarea placeholder="Message" id="Message"></textarea>
+                            </div>
+                            <div class="form_button">
+                                <button class="btn" id="submit_btn">Send<i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+        </main>
+        <footer>
+            <div class="top_footer">
+                <p>Piyush Agrahari .</p>
+            </div>
+            <div class="middle_footer">
+                <ul class="footer_menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_social_icons">
+                <div class="icon" ><a href="https://www.instagram.com/piiush_here/"><i class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/piyush-agrahari-385b28303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://github.com/Piiush04"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+            <div class="bottom_footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Piyush Agrahari</a> - All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+</script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "1saDp_-vkYfnBlkxo",
+      });
+   })();
+</script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
